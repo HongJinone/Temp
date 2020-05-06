@@ -62,7 +62,7 @@ VR 탁구게임인 Eleven Table Tennis VR은, 제가 VR 게임을 개발할 때 
 5. 본인이 작성했던 메소드 중 매개변수의 수가 가장 많았던 메소드는? 그 수는?
 
 2개.
-메소드 이름: void InstantiateUnit => 유닛 생성 메소드.  
+메소드 이름: void InstantiateUnit() => 유닛 생성 메소드.  
 매개변수: GameObject _unitPrefab, Transform _unitPosition => 유닛의 게임 오브젝트
 원리: 유닛 생성 UI에서 세 공격로 중 하나를 VR 컨트롤러로 선택하면, _unitPosition(유닛 소환 위치) 변수 값이 변동합니다.
 그후 세 유닛 중 하나를 선택하면, _unitPrefab(유닛 종류) 변수 값이 변동합니다.
